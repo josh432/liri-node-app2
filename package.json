@@ -19,6 +19,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "node-spotify-api": "^1.0.7",
+    "simple-node-logger": "^0.93.33",
     "twitter": "^1.7.1"
   }
 }
