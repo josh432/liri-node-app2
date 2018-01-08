@@ -1,7 +1,10 @@
 require("dotenv").config();
-var spotify = new Spotify(keys.spotify);
-var client = new Twitter(keys.twitter);
-var fs=require('fs');
+//var spotify = new Spotify(keys.spotify);
+
+var keys = require('./keys.js');
+var Twitter = require('twitter');
+var spotify = require("spotify");
+var fs= require('fs');
 var request = require('request');
 var filename = './log.txt';
 var log = require('simple-node-logger').createSimpleFileLogger( filename );
@@ -44,4 +47,25 @@ function doSomething(action, argument) {
 			console.log("Your choices are my-tweets, spotify-this-song, movie-this, do-what-it-says");
 	}
 
+}
+
+//Twitter function
+
+function getMyTweets() {
+	var client = new Twitter(keys.twitter);
+	var params = {screen_name: '@wikidybtch', count: 20};
+client.get('statuses/user_timeline', params, function(error, tweets, response) {
+  if (!error) {
+
+	  	// Loops through tweets and prints out tweet text and creation date.
+	  	for (var i = 0; i < tweets.length; i++) {
+	  		var tweetText = tweets[i].text;
+	  		console.log("Tweet Text: " + tweetText);
+	  		var tweetCreationDate = tweets[i].created_at;
+	  		console.log("Tweet Creation Date: " + tweetCreationDate);
+	  	}
+	  } else {
+	  	logOutput(error);
+	  }
+	});
 }
