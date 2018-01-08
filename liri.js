@@ -1,6 +1,6 @@
 require("dotenv").config();
 //var spotify = new Spotify(keys.spotify);
-
+var colors = require('colors');
 var keys = require('./keys.js');
 var Twitter = require('twitter');
 var spotify = require("spotify");
@@ -60,9 +60,9 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  	// Loops through tweets and prints out tweet text and creation date.
 	  	for (var i = 0; i < tweets.length; i++) {
 	  		var tweetText = tweets[i].text;
-	  		console.log("Tweet Text: " + tweetText);
+	  		console.log("Tweet Text: " + tweetText.red);
 	  		var tweetCreationDate = tweets[i].created_at;
-	  		console.log("Tweet Creation Date: " + tweetCreationDate);
+	  		console.log("Tweet Creation Date: " + tweetCreationDate.yellow);
 	  	}
 	  } else {
 	  	console.log(error);

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/josh432/liri-node-app2#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "dotenv": "^4.0.0",
     "node-spotify-api": "^1.0.7",
     "simple-node-logger": "^0.93.33",
