@@ -65,7 +65,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  		console.log("Tweet Creation Date: " + tweetCreationDate);
 	  	}
 	  } else {
-	  	logOutput(error);
+	  	console.log(error);
 	  }
 	});
 }
