@@ -74,7 +74,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 //Spotify function
 function spotifyThisSong(argument) {
 			var spotify = new Spotify(keys.spotify);
-		   spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+		   spotify.search({ type: 'track', query: argument }, function(err, data) {
   if (err) {
     return console.log('Error occurred: ' + err);
   }
