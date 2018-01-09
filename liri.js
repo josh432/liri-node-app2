@@ -72,8 +72,18 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 }
 
 //Spotify function
+function spotifyThisSong(argument) {
+			var spotify = new Spotify(keys.spotify);
+		   spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+  if (err) {
+    return console.log('Error occurred: ' + err);
+  }
+ 
+console.log(data); 
+});
+}
 
-
+	 
 
 
 
@@ -92,7 +102,9 @@ var queryUrl = "https://www.omdbapi.com/?t=" + argument + "&y=&plot=short&apikey
 	    var movie = JSON.parse(body);
 
 	    // Prints out movie info.
-	    console.log("Movie Title: " + movie.Title);
+
+ 
+      console.log("Movie Title: " + movie.Title);
 	    console.log("Release Year: " + movie.Year);
 	    console.log("IMDB Rating: " + movie.imdbRating);
 	    console.log("Country Produced In: " + movie.Country);
