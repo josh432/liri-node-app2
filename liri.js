@@ -25,15 +25,15 @@ function doSomething(action, argument) {
 			break;
 
 		case "spotify-this-song":
-			if (argument == "") {
-				lookUpThisSong();
+			if (argument == "" || argument == undefined) {
+				spotifyThisSong("Ace of Base");
 			}else{
 				spotifyThisSong(argument);
 			}
 			break;
 
 		case "movie-this":
-			if (argument == "") {
+			if (argument == "" || argument == undefined) {
 				getMovie("Mr. Nobody");
 			}else{
 				getMovie(argument);
@@ -75,11 +75,22 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 function spotifyThisSong(argument) {
 			var spotify = new Spotify(keys.spotify);
 		   spotify.search({ type: 'track', query: argument }, function(err, data) {
-  if (err) {
-    return console.log('Error occurred: ' + err);
+ 				 if (err) {
+    			return console.log('Error occurred: ' + err);
   }
+
+  var artistsArray = data.tracks.items[0].album.artists;
+  var artistsNames = [];
+  for (var i = 0; i < artistsArray.length; i++) {
+			artistsNames.push(artistsArray[i].name);
+		}
+
+		var artists = artistsNames.join(", ");
  
-console.log(data); 
+console.log("Artist(s): " + artists);
+console.log("Song: " + data.tracks.items[0].name);
+console.log("Spotify Preview URL: " + data.tracks.items[0].preview_url);
+console.log("Album Name: " + data.tracks.items[0].album.name);
 });
 }
 
