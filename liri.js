@@ -41,7 +41,7 @@ function doSomething(action, argument) {
 			break;
 
 		case "do-what-it-says":
-			dowhatItSays();
+			doWhatItSays();
 			break;
 
 		default:
@@ -122,8 +122,23 @@ var queryUrl = "https://www.omdbapi.com/?t=" + argument + "&y=&plot=short&apikey
 	    console.log("Language: " + movie.Language);
 	    console.log("Plot: " + movie.Plot);
 	    console.log("Actors: " + movie.Actors);
-	   // console.log("Rotten Tomatoes Rating: " + movie.Value);
+	   	//console.log("Rotten Tomatoes Rating: " + movie.Ratings.value);
+      //console.log("Rotten Tomatoes URL: " + body.tomatoURL);
 	   
 	  }
 	});
+}
+
+function doWhatItSays() {
+	fs.readFile("random.txt", "utf-8", function(err, data){
+			if (err) {
+		console.log("error reading file:", error);
+	}else {
+		var dataArray = data.split(',');
+	 	action = dataArray[0];
+		argument = dataArray[1];
+		doSomething(action, argument);
+
+		}
+	})
 }
