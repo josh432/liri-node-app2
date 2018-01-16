@@ -45,7 +45,7 @@ function doSomething(action, argument) {
 			break;
 
 		default:
-			console.log("Your choices are my-tweets, spotify-this-song, movie-this, do-what-it-says");
+			console.log("Your choices are: my-tweets, spotify-this-song, movie-this, do-what-it-says");
 	}
 
 }
@@ -61,12 +61,14 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 	  	// Loops through tweets and prints out tweet text and creation date.
 	  	for (var i = 0; i < tweets.length; i++) {
 	  		var tweetText = tweets[i].text;
-	  		console.log("Tweet Text: " + tweetText.red);
+	  		log.info("Tweet Text: " + tweetText);
+	  		console.log("Tweet Text: " + tweetText.red)
 	  		var tweetCreationDate = tweets[i].created_at;
-	  		console.log("Tweet Creation Date: " + tweetCreationDate.yellow);
+	  		log.info("Tweet Creation Date: " + tweetCreationDate);
+	  		console.log("Tweet Creation Date: " + tweetCreationDate.yellow)
 	  	}
 	  } else {
-	  	console.log(error);
+	  	log.info(error);
 	  }
 	});
 }
@@ -88,9 +90,13 @@ function spotifyThisSong(argument) {
 		var artists = artistsNames.join(", ");
  
 console.log("Artist(s): " + artists);
+log.info("Artist(s): " + artists);
 console.log("Song: " + data.tracks.items[0].name);
+log.info("Song: " + data.tracks.items[0].name);
 console.log("Spotify Preview URL: " + data.tracks.items[0].preview_url);
+log.info("Spotify Preview URL: " + data.tracks.items[0].preview_url)
 console.log("Album Name: " + data.tracks.items[0].album.name);
+log.info("Album Name: " + data.tracks.items[0].album.name);
 });
 }
 
@@ -103,7 +109,7 @@ console.log("Album Name: " + data.tracks.items[0].album.name);
 //movie function
 function getMovie(argument) {
 // Runs a request to the OMDB API with the movie specified.
-var queryUrl = "https://www.omdbapi.com/?t=" + argument + "&y=&plot=short&apikey=40e9cece";
+var queryUrl = "https://www.omdbapi.com/?t=" + argument + "&y=&plot=short&apikey=trilogy&r=json&tomatoes=true";
 
 	request(queryUrl, function(error, response, body) {
 	  // If the request is successful...
@@ -116,14 +122,23 @@ var queryUrl = "https://www.omdbapi.com/?t=" + argument + "&y=&plot=short&apikey
 
  
       console.log("Movie Title: " + movie.Title);
+      log.info("Movie Title: " + movie.Title);
 	    console.log("Release Year: " + movie.Year);
+	    log.info("Release Year: " + movie.Year);
 	    console.log("IMDB Rating: " + movie.imdbRating);
+	    log.info("IMDB Rating: " + movie.imdbRating);
 	    console.log("Country Produced In: " + movie.Country);
+	    log.info("Country Produced In: " + movie.Country);
 	    console.log("Language: " + movie.Language);
-	    console.log("Plot: " + movie.Plot);
+	    log.info("Language: " + movie.Language);
+			console.log("Plot: " + movie.Plot);
+			log.info("Plot: " + movie.Plot);
 	    console.log("Actors: " + movie.Actors);
-	   	//console.log("Rotten Tomatoes Rating: " + movie.Ratings.value);
-      //console.log("Rotten Tomatoes URL: " + body.tomatoURL);
+	    log.info("Actors: " + movie.Actors);
+	   	console.log("Rotten Tomatoes Rating: " + movie.tomatoRating);
+	   	log.info("Rotten Tomatoes Rating: " + movie.tomatoRating);
+      console.log("Rotten Tomatoes URL: " + movie.tomatoURL);
+      log.info("Rotten Tomatoes URL: " + movie.tomatoURL);
 	   
 	  }
 	});

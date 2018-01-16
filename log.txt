@@ -1,0 +1,115 @@
+08:18:51.694 INFO  Tweet Text: Now open your eyes,
+
+ This is no fantasy.
+
+For the spiders and insects
+
+This is their reality. 
+
+The elves are marc… https://t.co/ANQa9qWp1V 
+08:18:51.694 INFO  Tweet Creation Date: Thu Dec 21 05:47:16 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Uh oh here come some more...
+
+The elves are marching.
+
+Now look, they're three-by-three.
+Just close your eyes now t… https://t.co/AZPXDHQDxz 
+08:18:51.694 INFO  Tweet Creation Date: Thu Dec 21 05:33:35 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Awaken! Awaken!
+The Elves are marching!
+They're marching through the valleys
+They're marching through the halls!
+
+T… https://t.co/nDpGk5z9Ww 
+08:18:51.694 INFO  Tweet Creation Date: Thu Dec 21 05:22:48 +0000 2017 
+08:18:51.694 INFO  Tweet Text: "So as you see, my dear, the army is yours to command
+
+All the power to help you out
+They will obey
+
+You've never had powers like these!" 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:58:14 +0000 2017 
+08:18:51.694 INFO  Tweet Text: How about this, can they do this? I think not!! https://t.co/a34bpdT2UW 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:55:12 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Can your friends do that? https://t.co/akxoLzHqum 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:53:43 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Can the elves do this? https://t.co/lWfkboKwAI 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:53:08 +0000 2017 
+08:18:51.694 INFO  Tweet Text: "You now have powers you've never had.
+
+The shadows will listen.
+
+Go ahead, whisper what you want to happen.
+
+It may feel a little strange." 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:52:17 +0000 2017 
+08:18:51.694 INFO  Tweet Text: "The bees have stingers.
+The wasps can swarm.
+We spiders have our webs.
+But you, my dear, you're in luck
+Because you have all three!" 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:49:17 +0000 2017 
+08:18:51.694 INFO  Tweet Text: "Listen here.
+I don't think you realize
+What you got here
+Let me show you the possibilities.
+The insects have powers
+Of deadly capabilities" 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:46:10 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Now I know I must be dreaming because when I opened my eyes, this is what I saw... https://t.co/pvyy0tlvn5 
+08:18:51.694 INFO  Tweet Creation Date: Wed Oct 18 20:43:12 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Everything's alright, everything is fine. https://t.co/zuV33ARpj0 
+08:18:51.694 INFO  Tweet Creation Date: Sun Oct 15 19:06:58 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Close your eyes, close your eyes.
+Relax.
+Think of nothing else.
+
+You're ok with us now.
+
+Your new life will turn out fine
+
+Have one more sip 
+08:18:51.694 INFO  Tweet Creation Date: Sun Oct 15 18:56:17 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Go to sleep. Yes. That's what you need.
+
+Spider water for your head.
+
+Yes.. I can see you're feeling fine.
+See, it tastes so good and sweet. 
+08:18:51.694 INFO  Tweet Creation Date: Sun Oct 15 18:52:11 +0000 2017 
+08:18:51.694 INFO  Tweet Text: Please don't be anxious
+Ignore all your problems
+Your whole life will be fine.
+
+We only want you to sleep well...
+
+Forget about the elves. 
+08:18:51.694 INFO  Tweet Creation Date: Sun Oct 15 18:49:21 +0000 2017 
+08:18:51.694 INFO  Tweet Text: All of the MoonElves sing "You can do it!"
+But the fire must burn inside you. https://t.co/Kf8r2tvVmW 
+08:18:51.694 INFO  Tweet Creation Date: Mon May 22 18:36:20 +0000 2017 
+08:18:51.694 INFO  Tweet Text: All of the MoonElves sing "You can do it!"
+Snatch a little lightning while you're at it, too. https://t.co/z1zxYBcD2M 
+08:18:51.694 INFO  Tweet Creation Date: Mon May 22 18:34:12 +0000 2017 
+08:18:51.694 INFO  Tweet Text: All of the MoonElves sing "You can do it!"
+The sky is yours to do what you please. https://t.co/rLqSd0CplY 
+08:18:51.694 INFO  Tweet Creation Date: Mon May 22 18:31:16 +0000 2017 
+08:18:51.694 INFO  Tweet Text: All of the MoonElves sing "You can do it!"
+Hold the breeze that blows through the trees. https://t.co/fNLgFG8Yq1 
+08:18:51.694 INFO  Tweet Creation Date: Mon May 22 18:29:06 +0000 2017 
+08:18:51.694 INFO  Tweet Text: All of the MoonElves sing "You can do it!"
+Grab some stars, they're at your command. https://t.co/Kp0Z765rs9 
+08:18:51.694 INFO  Tweet Creation Date: Mon May 22 18:27:10 +0000 2017 
+08:27:26.366 INFO  Artist(s): Survivor 
+08:27:26.367 INFO  Song: Eye of the Tiger 
+08:27:26.370 INFO  Spotify Preview URL: https://p.scdn.co/mp3-preview/0305e216dd77b09c395724bd2c3506cd1047dad2?cid=4288a5715bb1456ea83bda9ec6f5dc9c 
+08:27:26.370 INFO  Album Name: Eye Of The Tiger 
+08:28:53.840 INFO  Movie Title: Star Wars: Episode IV - A New Hope 
+08:28:53.842 INFO  Release Year: 1977 
+08:28:53.842 INFO  IMDB Rating: 8.7 
+08:28:53.845 INFO  Country Produced In: USA 
+08:28:53.845 INFO  Language: English 
+08:28:53.846 INFO  Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station while also attempting to rescue Princess Leia from the evil Darth Vader. 
+08:28:53.847 INFO  Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing 
+08:28:53.848 INFO  Rotten Tomatoes Rating: N/A 
+08:28:53.848 INFO  Rotten Tomatoes URL: http://www.rottentomatoes.com/m/star_wars/ 
