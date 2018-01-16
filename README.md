@@ -1,5 +1,5 @@
 README.md
-<h1><strong>Liri-Node-App<strong></strong></h1>
+<h1><strong>Liri-Node-App</strong></h1>
 <p>Liri is a Language Interpretation and Recognition Interface</p>
 
 <h1><strong>NPM Installations</strong></h1>
